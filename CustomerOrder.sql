@@ -1,4 +1,4 @@
-use music_db;
+use newschema;
 select client_name, city from client;
 select * from product;
 select client_name from client where client_name like '_a%';
