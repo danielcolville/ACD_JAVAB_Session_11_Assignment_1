@@ -39,6 +39,7 @@ select client_name,city,State from client where State <> 'Assam';
 -- o
 select * from `order` where cancel_date like '%-03-%';
 
+-- resetting the table so queries can be run again
 INSERT INTO `empdb1`.`order`
 (`idorder`,`order_date`,`client_number`,
 `salesman_number`,`billed_whole_payment`,`delivery_date`,`prod_id`,`new_prod_rate`)
